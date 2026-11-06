@@ -1,0 +1,10 @@
+# Install PyTorch FIRST (see README: the command differs for CPU vs NVIDIA GPU), then:
+#   pip install -r requirements.txt
+# Versions below are the ones tested together on 2026-11-05.
+faster-whisper==1.2.1
+speechbrain==1.1.1
+scikit-learn==1.9.1
+av==18.1.0          # av 19 breaks faster-whisper 1.2.1 (removed metadata_errors)
+ctranslate2==4.8.5
+scipy
+numpy
