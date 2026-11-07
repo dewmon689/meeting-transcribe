@@ -14,7 +14,8 @@ network use is a one-time model download.
 ## 1. One-time setup (~15 minutes)
 
 You need **Python 3.12** and about **4 GB of disk**: ~2 GB of Python packages plus a 1.6 GB model.
-Unzip this folder to your home directory as `meeting-transcribe`.
+Download it from GitHub (**Code → Download ZIP**) and unzip it into your home directory. GitHub names
+the folder `meeting-transcribe-main`, so rename it to `meeting-transcribe`. The commands below assume that name.
 
 > On a work laptop, check that IT allows installing Python packages. If huggingface.co is blocked
 > (the model download fails), see [Troubleshooting](#troubleshooting).
